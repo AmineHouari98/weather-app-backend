@@ -12,6 +12,7 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
       }),
       inject: [ConfigService],
     }),
-    LocationModule]
+    LocationModule,
+  ],
 })
 export class AppModule {}
